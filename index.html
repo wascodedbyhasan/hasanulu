@@ -28,26 +28,35 @@
                 background-color: transparent;
                 text-decoration: none;
             }
-            body {
+            html, body {
                 margin: 0;
                 padding: 0;
                 height: auto;
-                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+            div {
+                text-align: center;
+            }
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
                 text-align: center;
             }
         </style>
     </head>
     <body>
-        <header>
+        <div>
             <h1>HASAN ULU</h1>
             <h2>Flutter Geliştirici</h2>
-        </header>
-        <main>
             <h3><a href="https://www.github.com/uluhasan" target="_blank" title="GitHub" rel="noopener">GitHub</a></h3>
             <h3><a href="https://www.linkedin.com/in/hasanulu" target="_blank" title="LinkedIn" rel="noopener">LinkedIn</a></h3>
             <h3><a href="cv.pdf" target="_blank" title="Öz Geçmiş" rel="noopener">Öz Geçmiş</a></h3>
-        </main>
+        </div>
         <footer>
             <p>Copyright © 2024</p>
         </footer>
