@@ -4,8 +4,6 @@ a:link, a:visited, a:hover, a:active {
  text-decoration: none;
 }
 html {
- margin: 0;
- padding: 0;
  height: 100%;
  display: flex;
  align-items: center;
