@@ -1,19 +1,4 @@
-a:link {
- color: black;
- background-color: transparent;
- text-decoration: none;
-}
-a:visited {
- color: black;
- background-color: transparent;
- text-decoration: none;
-}
-a:hover {
- color: black;
- background-color: transparent;
- text-decoration: none;
-}
-a:active {
+a:link, a:visited, a:hover, a:active {
  color: black;
  background-color: transparent;
  text-decoration: none;
