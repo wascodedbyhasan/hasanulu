@@ -3,13 +3,11 @@ a:link, a:visited, a:hover, a:active {
     background-color: transparent;
     text-decoration: none;
 }
-html {
+html, body {
     margin: 0;
-    height: 100vh;
+    height: 100%;
 }
 body {
-    height: 100%;
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
