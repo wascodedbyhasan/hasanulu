@@ -6,12 +6,7 @@ a: link, a: visited, a: hover, a: active {
 body {
  height: 100vh;
  display: flex;
+ filex-direction: column;
  justify-content: center;
  align-items: center;
-}
-div {
- display: flex;
- flex-direction: column;
- align-items: center;
- text-align: center;
 }
