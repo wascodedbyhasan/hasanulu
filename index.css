@@ -3,7 +3,7 @@ a:link, a:visited, a:hover, a:active {
     background-color: transparent;
     text-decoration: none;
 }
-html, body {
+html {
     margin: 0;
     height: 100%;
     font-family: Times;
