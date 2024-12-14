@@ -1,12 +1,17 @@
-a:link, a:visited, a:hover, a:active {
+a: link, a: visited, a: hover, a: active {
  color: black;
  background-color: transparent;
  text-decoration: none;
 }
-html {
- height: 100%;
+body {
+ height: 100vh;
  display: flex;
- align-items: center;
  justify-content: center;
+ align-items: center;
+}
+div {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
  text-align: center;
 }
