@@ -1,4 +1,4 @@
-a: link, a: visited, a: hover, a: active {
+a:link, a:visited, a:hover, a:active {
  color: black;
  background-color: transparent;
  text-decoration: none;
@@ -6,7 +6,7 @@ a: link, a: visited, a: hover, a: active {
 body {
  height: 100vh;
  display: flex;
- filex-direction: column;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
  text-align: center;
