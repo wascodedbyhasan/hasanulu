@@ -3,10 +3,13 @@ a:link, a:visited, a:hover, a:active {
     background-color: transparent;
     text-decoration: none;
 }
-html {
+html, body {
     margin: 0;
     height: 100%;
+}
+body {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
