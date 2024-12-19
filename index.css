@@ -6,8 +6,6 @@ a:link, a:visited, a:hover, a:active {
 html {
     margin: 0;
     height: 100%;
-}
-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
